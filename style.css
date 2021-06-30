@@ -1,0 +1,25 @@
+.container{
+   display: flex;
+   background-color: cadetblue; 
+    flex-flow: wrap-reverse;
+}
+.f1{
+    background-color: red;
+    font-size: 24px;  
+   
+}
+.f2{
+    background-color: yellow;
+    font-size: 24px; 
+   
+}
+@media(min-width:768px){
+    .f1 {
+        flex-basis: 30%;
+        
+    }
+    .f2 {
+        flex-basis: 70%;
+       
+    }
+}
